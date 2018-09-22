@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="Servings">Servings: </string>
+    <string name="Recipe">Recipe: </string>
+    <string name="Description">Description</string>
+    <string name="Ingredients">Ingredients</string>
+
+
+
+    <string name="recipe_extras" translatable="false">recipe_extras</string>
+    <string name="substance_img" translatable="false">substance_img</string>
+    <string name="step_detail_fragment" translatable="false">step_detail_fragment</string>
+    <string name="step_detail_activity" translatable="false">step_detail_activity</string>
+    <string name="player_state" translatable="false">player_state</string>
+
+    <string name="image1" translatable="false">https://assets.epicurious.com/photos/54ac95e819925f464b3ac37e/master/pass/51229210_nutella-pie_1x1.jpg</string>
+    <string name="image2" translatable="false">https://img.taste.com.au/kdMbjArS/taste/2010/01/chocolate-brownies-118925-2.jpg</string>
+    <string name="image3" translatable="false">https://bigoven-res.cloudinary.com/image/upload/basic-yellow-cake-2.jpg</string>
+    <string name="image4" translatable="false">https://assets.kraftfoods.com/recipe_images/opendeploy/95341-94d8557b370dda96960fcafcc6dde6224ed0013e_642x428.jpg</string>
+    <string name="image5" translatable="false">https://www.abelandcole.co.uk/media/76_18259_z.jpg</string>
+
+
+   <!--menifrest-->
+    <string name="activity_recipe_details_title">RecipeDetailsActivity</string>
+    <string name="step_list_title">steps</string>
+    <string name="step_detail_title">step Detail</string>
+
+
+    <string name="widget_recipe_name" translatable="false">NAME_KEY</string>
+    <string name="widget_recipe_ingredients" translatable="false">INGE_KEY</string>
+    <string name="nonRecipeAdded">Non Recipe Added!</string>
+
+
+
+</resources>

@@ -1,0 +1,44 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+
+    >
+
+    <TextView
+        android:id="@+id/widgetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="18dp"
+        android:textColor="@color/exo_error_message_background_color"
+        android:text="@string/nonRecipeAdded"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/widgetName"
+        android:background="@color/exo_edit_mode_background_color"
+        android:alpha=".8"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/widgetIngredients"
+            android:paddingTop="2dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/exo_error_message_background_color"
+            android:paddingLeft="8dp"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
